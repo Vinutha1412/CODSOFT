@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-box {
+    margin-bottom: 20px;
+  }
+  
+  #quote {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .actions button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #refresh-btn {
+    background: #4caf50;
+    color: white;
+  }
+  
+  #favorite-btn {
+    background: #2196f3;
+    color: white;
+  }
+  
+  #share-btn {
+    background: #f44336;
+    color: white;
+  }
+  
+  #favorites-list {
+    list-style: none;
+    padding: 0;
+  }
